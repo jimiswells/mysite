@@ -289,4 +289,34 @@ font-size:2em;
 }
 
 
+.products .image_with_text h5 {
+    position: absolute;
+    margin-top: -40%;
+    left: 0;
+    right: 0;
+     font-family: 'Goudy Bookletter 1911', sans-serif;
+    color: #fff;
+    font-size:3em;
+}
+
+.products .full_section_inner {
+    margin: 0;
+}
+
+.product-info {
+    width: 90%;
+    margin: 50px auto 100px auto;
+    
+}
+
+.product-info img {
+    width: 100%;
+}
+
+.product-info h2 {
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align:center;
+}
+    
 
