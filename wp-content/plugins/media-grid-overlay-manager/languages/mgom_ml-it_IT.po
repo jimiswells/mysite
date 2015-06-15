@@ -1,0 +1,602 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Grid - Overlay Manager\n"
+"POT-Creation-Date: 2015-01-24 14:03+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ajax.php:125
+msgid "Graphical elements"
+msgstr ""
+
+#: ../ajax.php:130
+msgid "Add new layer"
+msgstr "Aggiungi nuovo livello"
+
+#: ../ajax.php:138 ../ajax.php:170 ../overlay_builder.php:20
+msgid "Add"
+msgstr ""
+
+#: ../ajax.php:154
+msgid "Textual elements"
+msgstr ""
+
+#: ../ajax.php:159
+msgid "Add new element"
+msgstr "Aggiungi nuovo elemento"
+
+#: ../functions.php:5
+msgid "Full image layer"
+msgstr ""
+
+#: ../functions.php:6
+msgid "Vertical splitted layers"
+msgstr ""
+
+#: ../functions.php:7
+msgid "Horizontal splitted layers"
+msgstr ""
+
+#: ../functions.php:14
+msgid "Central shape"
+msgstr ""
+
+#: ../functions.php:15
+msgid "Corner shape"
+msgstr ""
+
+#: ../functions.php:16
+msgid "Standalone icon"
+msgstr ""
+
+#: ../functions.php:18
+msgid "Image effect"
+msgstr ""
+
+#: ../functions.php:27
+msgid "Text block <small>(not for text under images)</small>"
+msgstr ""
+
+#: ../functions.php:28
+msgid "Item's title"
+msgstr ""
+
+#: ../functions.php:29
+msgid "Item's excerpt"
+msgstr ""
+
+#: ../functions.php:30
+msgid "Separator"
+msgstr ""
+
+#: ../functions.php:31
+msgid "Social buttons"
+msgstr ""
+
+#: ../functions.php:32
+msgid "Custom content"
+msgstr ""
+
+#: ../functions.php:51 ../functions.php:64
+msgid "circle"
+msgstr ""
+
+#: ../functions.php:52
+msgid "exagon"
+msgstr ""
+
+#: ../functions.php:53
+msgid "octagon"
+msgstr ""
+
+#: ../functions.php:62
+msgid "triangle"
+msgstr ""
+
+#: ../functions.php:63
+msgid "square"
+msgstr ""
+
+#: ../functions.php:73 ../functions.php:90 ../functions.php:177
+#: ../functions.php:200
+msgid "center"
+msgstr ""
+
+#: ../functions.php:74 ../functions.php:103
+msgid "top-left"
+msgstr ""
+
+#: ../functions.php:75
+msgid "top"
+msgstr ""
+
+#: ../functions.php:76 ../functions.php:104
+msgid "top-right"
+msgstr ""
+
+#: ../functions.php:77 ../functions.php:178 ../functions.php:201
+msgid "right"
+msgstr ""
+
+#: ../functions.php:78 ../functions.php:105
+msgid "bottom-right"
+msgstr ""
+
+#: ../functions.php:79
+msgid "bottom"
+msgstr ""
+
+#: ../functions.php:80 ../functions.php:106
+msgid "bottom-left"
+msgstr ""
+
+#: ../functions.php:81 ../functions.php:176 ../functions.php:199
+msgid "left"
+msgstr ""
+
+#: ../functions.php:91
+msgid "top-left corner"
+msgstr ""
+
+#: ../functions.php:92
+msgid "top-right corner"
+msgstr ""
+
+#: ../functions.php:93
+msgid "bottom-right corner"
+msgstr ""
+
+#: ../functions.php:94
+msgid "bottom-left corner"
+msgstr ""
+
+#: ../functions.php:116
+msgid "none"
+msgstr ""
+
+#: ../functions.php:117
+msgid "Item type icon"
+msgstr ""
+
+#: ../functions.php:118
+msgid "Magnifier icon"
+msgstr ""
+
+#: ../functions.php:119
+msgid "Plus icon"
+msgstr ""
+
+#: ../functions.php:120
+msgid "Eye icon"
+msgstr ""
+
+#: ../functions.php:131
+msgid "ease"
+msgstr ""
+
+#: ../functions.php:132
+msgid "linear"
+msgstr ""
+
+#: ../functions.php:133
+msgid "ease-in"
+msgstr ""
+
+#: ../functions.php:134
+msgid "ease-out"
+msgstr ""
+
+#: ../functions.php:135
+msgid "ease-in-out"
+msgstr ""
+
+#: ../functions.php:136
+msgid "ease-in-back"
+msgstr ""
+
+#: ../functions.php:137
+msgid "ease-out-back"
+msgstr ""
+
+#: ../functions.php:138
+msgid "ease-in-out-back"
+msgstr ""
+
+#: ../functions.php:147
+msgid "zoom-in"
+msgstr ""
+
+#: ../functions.php:148
+msgid "zoom-out"
+msgstr ""
+
+#: ../functions.php:149
+msgid "slide vertically"
+msgstr ""
+
+#: ../functions.php:150
+msgid "slide horizontally"
+msgstr ""
+
+#: ../functions.php:151
+msgid "flip vertically"
+msgstr ""
+
+#: ../functions.php:152
+msgid "flip horizontally"
+msgstr ""
+
+#: ../functions.php:153
+msgid "rotate"
+msgstr ""
+
+#: ../functions.php:162
+msgid "(standard behavior)"
+msgstr ""
+
+#: ../functions.php:163
+msgid "always visible + use contents height"
+msgstr ""
+
+#: ../functions.php:164
+msgid "always show title + use contents height"
+msgstr ""
+
+#: ../functions.php:165
+msgid "always show title + full height"
+msgstr ""
+
+#: ../functions.php:166
+msgid "show on hover + use contents height"
+msgstr ""
+
+#: ../functions.php:167
+msgid "curtain effect"
+msgstr ""
+
+#: ../functions.php:179
+msgid "justify"
+msgstr ""
+
+#: ../functions.php:188
+msgid "minimal"
+msgstr ""
+
+#: ../functions.php:189
+msgid "rounded"
+msgstr ""
+
+#: ../functions.php:190
+msgid "squared"
+msgstr ""
+
+#: ../functions.php:210
+msgid "solid"
+msgstr ""
+
+#: ../functions.php:211
+msgid "dotted"
+msgstr ""
+
+#: ../functions.php:212
+msgid "dashed"
+msgstr ""
+
+#: ../functions.php:213
+msgid "double"
+msgstr ""
+
+#: ../functions.php:227 ../functions.php:232
+msgid "Shape"
+msgstr ""
+
+#: ../functions.php:237
+msgid "Icon type"
+msgstr ""
+
+#: ../functions.php:243
+msgid "Background color"
+msgstr ""
+
+#: ../functions.php:248
+msgid "Background color (on hover)"
+msgstr ""
+
+#: ../functions.php:254
+msgid "Color"
+msgstr ""
+
+#: ../functions.php:259
+msgid "Color (on hover)"
+msgstr ""
+
+#: ../functions.php:265
+msgid "Opacity"
+msgstr ""
+
+#: ../functions.php:274
+msgid "Opacity (on hover)"
+msgstr ""
+
+#: ../functions.php:285
+msgid "Initial position"
+msgstr ""
+
+#: ../functions.php:290
+msgid "Position (on hover)"
+msgstr ""
+
+#: ../functions.php:295
+msgid "Position"
+msgstr ""
+
+#: ../functions.php:300
+msgid "Corner"
+msgstr ""
+
+#: ../functions.php:305
+msgid "Icon"
+msgstr ""
+
+#: ../functions.php:310
+msgid "Layer over text block?"
+msgstr ""
+
+#: ../functions.php:315
+msgid "Image zoom (on hover)"
+msgstr ""
+
+#: ../functions.php:324
+msgid "Grayscale (on hover)"
+msgstr ""
+
+#: ../functions.php:328
+msgid "Image blur (on hover)"
+msgstr ""
+
+#: ../functions.php:333
+msgid "Font size"
+msgstr ""
+
+#: ../functions.php:342
+msgid "Font size (on hover)"
+msgstr ""
+
+#: ../functions.php:353
+msgid "Animation time"
+msgstr ""
+
+#: ../functions.php:362
+msgid "Animation easing"
+msgstr ""
+
+#: ../functions.php:367
+msgid "Transitions"
+msgstr "Transizioni"
+
+#: ../functions.php:375
+msgid "Thickness"
+msgstr ""
+
+#: ../functions.php:384 ../functions.php:390
+msgid "Style"
+msgstr ""
+
+#: ../functions.php:395
+msgid "Alignment"
+msgstr ""
+
+#: ../functions.php:401
+msgid "Layer visibility <small>(only for bottom position)</small>"
+msgstr ""
+
+#: ../functions.php:406 ../functions.php:410
+msgid "Text vertically centered?"
+msgstr ""
+
+#: ../functions.php:414
+msgid "Padding <small>(top right bottom left)</small>"
+msgstr ""
+
+#: ../functions.php:420
+msgid "Text alignment"
+msgstr ""
+
+#: ../functions.php:425
+msgid "Line-height"
+msgstr ""
+
+#: ../functions.php:434
+msgid "Text styles"
+msgstr ""
+
+#: ../functions.php:435
+msgid "bold"
+msgstr ""
+
+#: ../functions.php:435
+msgid "italic"
+msgstr ""
+
+#: ../functions.php:435
+msgid "uppercase"
+msgstr ""
+
+#: ../functions.php:441
+msgid "Font family (optional)"
+msgstr ""
+
+#: ../functions.php:446
+msgid "Custom text"
+msgstr ""
+
+#: ../functions.php:578
+msgid "CSS selector"
+msgstr ""
+
+#: ../functions.php:580
+msgid "collapse"
+msgstr ""
+
+#: ../functions.php:580
+msgid "expand"
+msgstr ""
+
+#: ../lc_update_notifier.php:222
+msgid "The following premium plugins have new versions available"
+msgstr ""
+
+#: ../lc_update_notifier.php:241
+msgid "You have version"
+msgstr ""
+
+#: ../lc_update_notifier.php:241
+msgid "installed"
+msgstr ""
+
+#: ../mg_overlay_manager.php:35
+msgid "Please activate Media Grid plugin to use the Overlay Manager add-on"
+msgstr ""
+
+#: ../mg_overlay_manager.php:100 ../overlay_builder.php:6
+msgid "Overlay Manager"
+msgstr ""
+
+#: ../mg_overlay_manager.php:116 ../mg_overlay_manager.php:130
+msgid "MG Overlays"
+msgstr ""
+
+#: ../mg_overlay_manager.php:117
+msgid "MG Overlay"
+msgstr ""
+
+#: ../mg_overlay_manager.php:118
+msgid "Search MG Overlays"
+msgstr ""
+
+#: ../mg_overlay_manager.php:119
+msgid "Popular MG Overlays"
+msgstr ""
+
+#: ../mg_overlay_manager.php:120
+msgid "All MG Overlays"
+msgstr ""
+
+#: ../mg_overlay_manager.php:121
+msgid "Parent MG Overlay"
+msgstr ""
+
+#: ../mg_overlay_manager.php:122
+msgid "Parent MG Overlay:"
+msgstr ""
+
+#: ../mg_overlay_manager.php:123
+msgid "Edit MG Overlay"
+msgstr ""
+
+#: ../mg_overlay_manager.php:124
+msgid "Update MG Overlay"
+msgstr ""
+
+#: ../mg_overlay_manager.php:125
+#, fuzzy
+msgid "Add New MG Overlay"
+msgstr "Aggiungi nuovo oggetto"
+
+#: ../mg_overlay_manager.php:126
+msgid "New MG Overlay"
+msgstr ""
+
+#: ../mg_overlay_manager.php:127
+msgid "Separate mg overlays with commas"
+msgstr ""
+
+#: ../mg_overlay_manager.php:128
+msgid "Add or remove MG Overlays"
+msgstr ""
+
+#: ../mg_overlay_manager.php:129
+msgid "Choose from most used MG Overlays"
+msgstr ""
+
+#: ../overlay_builder.php:17
+msgid "Add Overlay"
+msgstr ""
+
+#: ../overlay_builder.php:25 ../overlay_builder.php:143
+#: ../overlay_builder.php:148 ../overlay_builder.php:151
+msgid "Overlays List"
+msgstr ""
+
+#: ../overlay_builder.php:30
+msgid "Preview"
+msgstr ""
+
+#: ../overlay_builder.php:32
+msgid "save to preview the overlay"
+msgstr ""
+
+#: ../overlay_builder.php:36
+msgid "Save overlay"
+msgstr ""
+
+#: ../overlay_builder.php:46 ../overlay_builder.php:180
+msgid "Select an overlay"
+msgstr ""
+
+#: ../overlay_builder.php:88
+msgid "Overlay added"
+msgstr ""
+
+#: ../overlay_builder.php:142 ../overlay_builder.php:191
+msgid "No existing overlays"
+msgstr ""
+
+#: ../overlay_builder.php:148
+msgid "pag"
+msgstr "pag"
+
+#: ../overlay_builder.php:148
+msgid "of"
+msgstr "di"
+
+#: ../overlay_builder.php:168
+msgid "Delete definitively the overlay?"
+msgstr ""
+
+#: ../overlay_builder.php:255
+msgid "Element already inserted"
+msgstr ""
+
+#: ../overlay_builder.php:289
+msgid "One or more mandatory fields are empty"
+msgstr ""
+
+#: ../overlay_builder.php:328
+msgid "Overlay saved"
+msgstr ""
+
+#: ../overlay_builder.php:421
+msgid "Remove layer?"
+msgstr ""
+
+#~ msgid "All"
+#~ msgstr "Tutto"
+
+#~ msgid "page"
+#~ msgstr "pagina"
+
+#~ msgid "show more"
+#~ msgstr "mostra altro"
+
+#~ msgid "Back to the collection"
+#~ msgstr "Torna alla collezione"
