@@ -5,6 +5,10 @@
 
 
 
+.content .content_inner > .container > .container_inner.default_template_holder {
+  padding-top: 300px;
+}
+
 
 .qbutton.white {
     width: 80%;
@@ -35,7 +39,7 @@ color: #fff;
 
 
 .header_bottom .container_inner {
-    background-color:rgba(128, 0, 128, 0.78);
+    background-color:rgba(21, 16, 42, 0.6);
 }
 
 .q_image_with_text_over .shader {
@@ -127,9 +131,7 @@ color: #fff;
 }
 
 
-.header_bottom .container_inner {
-    background-color:rgba(128, 0, 128, 0.78);
-}
+
 
 .full_section_inner {
     margin: 40px;
@@ -163,9 +165,7 @@ color: #fff;
 }
 
 
-.header_bottom .container_inner {
-    background-color:rgba(128, 0, 128, 0.78);
-}
+
 
 .full_width_inner {
     
@@ -213,6 +213,11 @@ font-size:2em;
   background-color:rgba(123, 4, 123, 0.69);
 
 }
+
+.boxes_image img {
+    width:100%;
+}
+    
     
     
 .mgom_circle div {

@@ -82,7 +82,7 @@ header.sticky .header_top{
 
 
 								.content{
-				margin-top: -123px;
+				margin-top: -205px;
 			}
 			
 	.content.content_top_margin{
@@ -98,7 +98,7 @@ header.sticky .header_top{
         @media only screen and (min-width: 1000px){
             header.fixed_hiding .q_logo a,
             header.fixed_hiding .q_logo{
-                max-height: 21.5px;
+                max-height: 62.5px;
             }
         }
     

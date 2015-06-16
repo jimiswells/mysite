@@ -5,8 +5,13 @@
 
 
 
+.content .content_inner > .container > .container_inner.default_template_holder {
+  padding-top: 300px;
+}
 
-
+.single-post .content .content_inner > .container > .container_inner.default_template_holder {
+    padding-top: 50px;
+}
 
 .qbutton.white {
     width: 80%;
@@ -37,7 +42,7 @@ color: #fff;
 
 
 .header_bottom .container_inner {
-    background-color:rgba(21, 16, 42, 0.78);
+    background-color:rgba(21, 16, 42, 0.6);
 }
 
 .q_image_with_text_over .shader {
@@ -163,9 +168,7 @@ color: #fff;
 }
 
 
-.header_bottom .container_inner {
-    background-color:rgba(21, 16, 42, 0.78);
-}
+
 
 .full_width_inner {
     
@@ -213,6 +216,11 @@ font-size:2em;
   background-color:rgba(123, 4, 123, 0.69);
 
 }
+
+.boxes_image img {
+    width:100%;
+}
+    
     
     
 .mgom_circle div {
@@ -246,6 +254,10 @@ font-size:2em;
     background-image: url(../img/ampersand.svg);
     background-repeat:no-repeat;
     
+}
+
+.footer_top_holder {
+   background-color: rgba(21,16,42,1) !important;
 }
 
 .footer_top .widget_nav_menu li.menu-item a {
