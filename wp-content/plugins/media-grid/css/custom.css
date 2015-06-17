@@ -15,7 +15,7 @@
 
 /* cell shadow  */
 .mg_shadow_div {
-	box-shadow: 0px 0px 3px rgba(25,25,25,0.6);}
+	}
 
 /* image border */
 .img_wrap {
@@ -58,11 +58,11 @@ span.mg_overlay_tit,
 
 /* border radius */
 .mg_box, .mg_shadow_div, .mg_box .img_wrap {
-  border-radius: 2px;
+  border-radius: 0px;
 }
 .mg_box .mg_title_under {
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 

@@ -50,6 +50,8 @@ text-decoration:underline;
     margin: 40px;
 }
 
+
+
 .products-grid h1 {
     text-align: center;
     text-transform: none;
@@ -66,6 +68,10 @@ text-decoration:underline;
     font-weight: 400;
     font-style: normal;
     color: #000000;
+}
+
+.mg_grid_wrap {
+    height: 960px;
 }
 
 .header_bottom .container_inner {
@@ -582,6 +588,7 @@ background-color: rgba(21, 16, 42, 0.6);
 .mgom_23_1 {
     padding-top: 20px;
     letter-spacing: 5px;
+    font-size:20px;
 }
 
 .mgom_23_1::after {
@@ -751,6 +758,11 @@ header .q_logo img.normal {
        text-align:center;
        font-size:16px;
 }
+    
+    .mg_grid_wrap {
+    height: 1100px;
+}
+
 }
     
 

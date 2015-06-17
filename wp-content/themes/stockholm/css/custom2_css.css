@@ -8,6 +8,16 @@
     padding-top: 50px;
 }
 
+.single-post .container_inner {
+    padding:40px;
+    width:auto;
+    background-color:;
+}
+
+.single-post .header_bottom .container_inner {
+    padding: 0;
+}
+
 .qbutton.white {
     width: 80%;
     margin-top: 10px;
@@ -40,6 +50,8 @@ text-decoration:underline;
     margin: 40px;
 }
 
+
+
 .products-grid h1 {
     text-align: center;
     text-transform: none;
@@ -58,6 +70,10 @@ text-decoration:underline;
     color: #000000;
 }
 
+.mg_grid_wrap {
+    height: 960px;
+}
+
 .header_bottom .container_inner {
     background-color: rgba(21, 16, 42, 0.6);
 }
@@ -68,6 +84,7 @@ text-decoration:underline;
 
 .single-post .content .content_inner > .container > .container_inner.default_template_holder {
     padding-top: 50px;
+    background-color: #f6f5f5;
 }
 
 .qbutton.white {
@@ -120,9 +137,7 @@ nav.main_menu>ul>li.active>a {
     font-family: 'Goudy Bookletter 1911', sans-serif;
 }
 
-.store-locations {
-    text-align: center;
-}
+
 
 .store-locations h1 {
     color: #201545;
@@ -181,7 +196,7 @@ nav.main_menu>ul>li.active>a {
 .store-locations {
     text-align: center;
     padding-bottom: 100px;
-    background-color: #efefef;
+    background-color: #f6f5f5;
 }
 
 .store-locations img {
@@ -215,11 +230,7 @@ nav.main_menu>ul>li.active>a {
     margin: 40px;
 }
 
-.store-locations {
-    text-align: center;
-    padding-bottom: 100px;
-    background-color: #efefef;
-}
+
 
 .store-locations img {
     width: 100%;
@@ -249,6 +260,10 @@ aside.sidebar .widget h4 {
 
 .specials img {
     width: 100%;
+}
+
+.latest_post_text {
+    padding: 10px;
 }
 
 .specials .latest_post_text {
@@ -404,9 +419,7 @@ aside.sidebar .widget h4 {
     font-family: 'Goudy Bookletter 1911', sans-serif;
 }
 
-.store-locations {
-    text-align: center;
-}
+
 
 .store-locations h1 {
     color: #201545;
@@ -440,11 +453,7 @@ aside.sidebar .widget h4 {
     color: red;
 }
 
-.store-locations {
-    text-align: center;
-    padding-bottom: 100px;
-    background-color: #efefef;
-}
+
 
 .store-locations img {
     width: 100%;
@@ -478,11 +487,7 @@ aside.sidebar .widget h4 {
     margin: 40px;
 }
 
-.store-locations {
-    text-align: center;
-    padding-bottom: 100px;
-    background-color: #efefef;
-}
+
 
 .store-locations img {
     width: 100%;
@@ -583,6 +588,7 @@ background-color: rgba(21, 16, 42, 0.6);
 .mgom_23_1 {
     padding-top: 20px;
     letter-spacing: 5px;
+    font-size:20px;
 }
 
 .mgom_23_1::after {
@@ -695,7 +701,69 @@ background-color: rgba(21, 16, 42, 0.6);
 }
 
 @media only screen and (max-width: 1000px){
+    
 .header_bottom, nav.mobile_menu {
   background-color: rgba(21, 16, 42, 1);
 }
+    
+header .q_logo img.normal {
+  display: block!important;
+  opacity: 1!important;
+  position: relative;
+  margin: 0 auto;
+  height:50% !important;
+  top: 25%;
 }
+    
+    .fa-bars {color: #fff;
+    }
+    
+    nav.mobile_menu ul li a, nav.mobile_menu ul li h4 {
+  font-size: 15px;
+  color: #8d8d8d;
+  
+  font-weight: bold;
+  line-height: 17px;
+  letter-spacing: 0;
+  color: white;
+}
+    
+    nav.mobile_menu ul li a:hover, nav.mobile_menu ul li.active>a {
+  /* color: #e6ae48; */
+  text-decoration: underline;
+        color: #fff;
+}
+    
+    .qbutton.white {margin-bottom: 100px;
+    }
+    
+    .signature {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .specials {
+        margin: 0;
+        padding-bottom: 50px;
+    }
+    
+    .specials .latest_post_text {
+        height: 200px;
+        margin-top: -80%;
+        width: 60%;
+    
+    }
+    
+   .products-grid p {
+       text-align:center;
+       font-size:16px;
+}
+    
+    .mg_grid_wrap {
+    height: 1100px;
+}
+
+}
+    
+
+
