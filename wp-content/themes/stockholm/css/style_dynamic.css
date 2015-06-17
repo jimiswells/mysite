@@ -130,7 +130,7 @@ nav.main_menu > ul > li > a{
 	@media only screen and (max-width: 1000px){
 		.header_bottom,
 		nav.mobile_menu{
-			background-color: #8224e3 !important;
+			background-color: #15102a !important;
 		}
 	}
 

@@ -1,16 +1,7 @@
 
 
-
-
-
-
-
-
-
-
-
 .content .content_inner > .container > .container_inner.default_template_holder {
-  padding-top: 300px;
+    padding-top: 300px;
 }
 
 .single-post .content .content_inner > .container > .container_inner.default_template_holder {
@@ -20,57 +11,59 @@
 .qbutton.white {
     width: 80%;
     margin-top: 10px;
-    text-align:center;
-    color:#000;
+    text-align: center;
+    color: #000;
 }
 
 .qbutton.white:hover {
-color: #fff;
+    color: #fff;
 }
 
+.drop_down .second {
+    border-top: 5px solid rgba(21, 16, 42, 0.6);
+    color:rgba(21, 16, 42, 1);
+}
+
+.drop_down .second .inner ul li a, .drop_down .second .inner ul li h4 {
+    color:rgba(21, 16, 42, 1);
+}
+
+.drop_down .second .inner ul li a, .drop_down .second .inner ul li h4:hover {
+text-decoration:underline;
+}
 
 .about {
-    background-color:#f6f5f5;
+    background-color: #f6f5f5;
 }
 
-.products-grid {margin: 40px;
+.products-grid {
+    margin: 40px;
 }
 
 .products-grid h1 {
-    text-align:center;
-    text-transform:none;
+    text-align: center;
+    text-transform: none;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .products-grid p {
-    
-  font-family: "Lato", sans-serif;
-  font-size: 26px;
+    font-family: "Lato", sans-serif;
+    font-size: 26px;
     margin-bottom: 50px;
-  letter-spacing: 10px;
-  line-height: 30px;
-  font-weight: 400;
-  font-style: normal;
-  color: #000000;
+    letter-spacing: 10px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
 }
-
-
 
 .header_bottom .container_inner {
-    background-color:rgba(21, 16, 42, 0.6);
+    background-color: rgba(21, 16, 42, 0.6);
 }
 
-
-
-
-
-
-
-
-
 .content .content_inner > .container > .container_inner.default_template_holder {
-  padding-top: 300px;
+    padding-top: 300px;
 }
 
 .single-post .content .content_inner > .container > .container_inner.default_template_holder {
@@ -80,105 +73,115 @@ color: #fff;
 .qbutton.white {
     width: 80%;
     margin-top: 10px;
-    text-align:center;
-    color:#000;
+    text-align: center;
+    color: #000;
 }
 
 .qbutton.white:hover {
-color: #fff;
+    color: #fff;
 }
-
 
 .about {
-    background-color:#f6f5f5;
+    background-color: #f6f5f5;
 }
 
-.products-grid {margin: 40px;
+.products-grid {
+    margin: 40px;
 }
 
 .products-grid h1 {
-    text-align:center;
-    text-transform:none;
+    text-align: center;
+    text-transform: none;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-
 
 .header_bottom .container_inner {
-    background-color:rgba(21, 16, 42, 0.6);
+    background-color: rgba(21, 16, 42, 0.6);
 }
 
-header:not(.with_hover_bg_color) nav.main_menu>ul>li:hover>a, nav.main_menu>ul>li.active>a 
-
-{
-    color:#fff;
-    text-decoration:underline;
+header:not(.with_hover_bg_color) nav.main_menu>ul>li:hover>a,
+nav.main_menu>ul>li.active>a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .q_image_with_text_over .shader {
-  background-color: rgba(255, 255, 255, 0.14);
+    background-color: rgba(255, 255, 255, 0.14);
 }
+
 .carousel-inner h2 {
-    font-size:2em;
+    font-size: 2em;
     font-family: 'Goudy Bookletter 1911', sans-serif;
     text-transform: none;
 }
 
 .carousel-inner h2 span {
-     font-family: 'Goudy Bookletter 1911', sans-serif;
+    font-family: 'Goudy Bookletter 1911', sans-serif;
 }
-    
-
 
 .store-locations {
-    text-align:center;
+    text-align: center;
 }
 
 .store-locations h1 {
     color: #201545;
-    font-size:3em;
-    text-transform:none;
+    font-size: 3em;
+    text-transform: none;
     margin-top: 50px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 .store-locations h3 {
-    text-align:center;
+    text-align: center;
     color: #201545;
-    font-family:"lato", sans-serif;
-    
+    font-family: "lato", sans-serif;
 }
 
-
-
-
 .store-locations .street-sign p {
-    text-align:right;
+    text-align: right;
     padding-right: 20px;
-    color:red;
+    color: red;
 }
 
 .store-locations .street-sign h2 {
-    text-align:center;
+    text-align: center;
     color: #201545;
-    
-   
 }
 
-.street-sign:hover {
-    background-color:rgba(21,16,42,1);
+.street-sign::after {
+    display: block;
+    content: "GO TO MAP";
+    color: #fff;
+    text-align:center;
+    margin: 0 auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    opacity:0;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(21, 16, 42, 1);
+    transition: all 200ms ease 0s;
+    -webkit-transition: all 200ms ease 0s;
+}
+
+.street-sign:hover.street-sign::after {
+    opacity:0.9;
+    
 }
 
 .street-sign h4 {
-    text-align:right;
-    color:red;
+    text-align: right;
+    color: red;
 }
 
 .store-locations {
     text-align: center;
     padding-bottom: 100px;
-    background-color:#efefef;
+    background-color: #efefef;
 }
 
 .store-locations img {
@@ -186,8 +189,9 @@ header:not(.with_hover_bg_color) nav.main_menu>ul>li:hover>a, nav.main_menu>ul>l
 }
 
 .store-locations p {
-    text-align:center;
+    text-align: center;
 }
+
 .street-sign {
     BORDER: 5PX SOLID #201545;
     BORDER-RADIUS: 10PX;
@@ -197,10 +201,9 @@ header:not(.with_hover_bg_color) nav.main_menu>ul>li:hover>a, nav.main_menu>ul>l
     background-color: #fff;
 }
 
-.opening-times  {
-   
+.opening-times {
     background-color: #fff;
-    margin:20px;
+    margin: 20px;
 }
 
 .street-sign h4 {
@@ -208,18 +211,14 @@ header:not(.with_hover_bg_color) nav.main_menu>ul>li:hover>a, nav.main_menu>ul>l
     color: red;
 }
 
-
-
-
 .full_section_inner {
     margin: 40px;
-    
 }
 
 .store-locations {
     text-align: center;
     padding-bottom: 100px;
-    background-color:#efefef;
+    background-color: #efefef;
 }
 
 .store-locations img {
@@ -227,14 +226,12 @@ header:not(.with_hover_bg_color) nav.main_menu>ul>li:hover>a, nav.main_menu>ul>l
 }
 
 .store-locations p {
-    text-align:center;
+    text-align: center;
 }
 
-
-.opening-times  {
-   
+.opening-times {
     background-color: #fff;
-    margin:20px;
+    margin: 20px;
 }
 
 .street-sign h4 {
@@ -242,10 +239,8 @@ header:not(.with_hover_bg_color) nav.main_menu>ul>li:hover>a, nav.main_menu>ul>l
     color: red;
 }
 
-
-
 aside.sidebar .widget h4 {
-    background-color:rgba(21,16,42,1) !important;
+    background-color: rgba(21, 16, 42, 1) !important;
 }
 
 .specials {
@@ -253,14 +248,14 @@ aside.sidebar .widget h4 {
 }
 
 .specials img {
-   width: 100%;
+    width: 100%;
 }
 
 .specials .latest_post_text {
     position: absolute;
     height: 300px;
     margin-top: -70%;
-    right:0;
+    right: 0;
     background-color: rgba(255, 255, 255, 0.9);
     width: 40%;
     padding: 10px;
@@ -268,117 +263,112 @@ aside.sidebar .widget h4 {
 
 .specials .latest_post_title {
     font-size: 1.5em;
-  font-style: italic;
+    font-style: italic;
     color: #201545;
 }
 
- .specials .latest_post_text h2 {
-font-size:2em;
+.specials .latest_post_text h2 {
+    font-size: 2em;
 }
 
 .latest_post_holder.boxes>ul>li .latest_post {
-  padding:0px;
-  background-color: #fff;
+    padding: 0px;
+    background-color: #fff;
 }
 
 .latest_post_holder .boxes_image a .latest_post_overlay {
-    background-color:rgba(21,16,42,0.6);
+    background-color: rgba(21, 16, 42, 0.6);
 }
 
 .latest_post_holder .latest_post_overlay .icon_plus {
-  color:#fff;
-  background-color:rgba(21,16,42,1);
-
+    color: #fff;
+    background-color: rgba(21, 16, 42, 1);
 }
 
 .boxes_image img {
-    width:100%;
+    width: 100%;
 }
-    
-    
-    
+
 .mgom_circle div {
     display: inline-block;
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  
-  left: 0;
-  right: 0;
-  border-radius: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:-100px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
 }
 
 .mg_box:hover .mgom_23_0 div {
     width: 300%;
-  height: 300%;
-  top: 0;
- 
+    height: 300%;
+    top: 0;
 }
 
-
-
-.footer_top{
+.footer_top {
     background-image: url(../img/ampersand.svg);
-    background-repeat:no-repeat;
-    
+    background-repeat: no-repeat;
 }
 
 .footer_top_holder {
-   background-color: rgba(21,16,42,1) !important;
+    background-color: rgba(21, 16, 42, 1) !important;
 }
 
 .footer_top .widget_nav_menu li.menu-item a {
-  margin-bottom: 10px;
-  font-size: 1.5em;
-  text-align: center;
-  color: white;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
 }
 
 .footer_top .widget h4 {
-  color: #fff;
-  margin: 0 0 15px;
-  text-align: center;
-  font-size: 1.5em;
-  font-style: italic;
+    color: #fff;
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
 }
 
-.footer_top a  {
-    color:#fff;
-    font-size:1.5em;
+.footer_top a {
+    color: #fff;
+    font-size: 1.5em;
     padding: 5px;
 }
 
 .mc4wp-form label {
-  font-size: 1.5em;
-  color: white;
-  font-style: italic;
-  padding-bottom: 20px;
-  margin: 6px 0;
+    font-size: 1.5em;
+    color: white;
+    font-style: italic;
+    padding-bottom: 20px;
+    margin: 6px 0;
 }
 
-.mc4wp-form button, .mc4wp-form input[type=button], .mc4wp-form input[type=submit]  {
-  color: #FFF!important;
-  /* background-color: #fff!important; */
-  /* border-color: #E6E6E6; */
-  font-size: 2em;
-  /* font-style: italic; */
-  text-decoration: underline;
-  padding: 0px;
-  bor
+.mc4wp-form button,
+.mc4wp-form input[type=button],
+.mc4wp-form input[type=submit] {
+    color: #FFF!important;
+    /* background-color: #fff!important; */
+    /* border-color: #E6E6E6; */
+    
+    font-size: 2em;
+    /* font-style: italic; */
+    
+    text-decoration: underline;
+    padding: 0px;
+    bor
 }
-
 
 .products .image_with_text h5 {
     position: absolute;
     margin-top: -40%;
     left: 0;
     right: 0;
-     font-family: 'Goudy Bookletter 1911', sans-serif;
+    font-family: 'Goudy Bookletter 1911', sans-serif;
     color: #fff;
-    font-size:3em;
+    font-size: 3em;
 }
 
 .products .full_section_inner {
@@ -388,7 +378,6 @@ font-size:2em;
 .product-info {
     width: 90%;
     margin: 50px auto 100px auto;
-    
 }
 
 .product-info img {
@@ -398,75 +387,63 @@ font-size:2em;
 .product-info h2 {
     margin-bottom: 50px;
     padding: 20px;
-    text-align:center;
+    text-align: center;
 }
-    
-
-
 
 .q_image_with_text_over .shader {
-  background-color: rgba(255, 255, 255, 0.14);
+    background-color: rgba(255, 255, 255, 0.14);
 }
+
 .carousel-inner h2 {
-    font-size:2em;
+    font-size: 2em;
     font-family: 'Goudy Bookletter 1911', sans-serif;
     text-transform: none;
 }
 
 .carousel-inner h2 span {
-     font-family: 'Goudy Bookletter 1911', sans-serif;
+    font-family: 'Goudy Bookletter 1911', sans-serif;
 }
-    
-
 
 .store-locations {
-    text-align:center;
+    text-align: center;
 }
 
 .store-locations h1 {
     color: #201545;
-    font-size:3em;
-    text-transform:none;
+    font-size: 3em;
+    text-transform: none;
     margin-top: 50px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 .store-locations h3 {
-    text-align:center;
+    text-align: center;
     color: #201545;
-    font-family:"lato", sans-serif;
-    
+    font-family: "lato", sans-serif;
 }
 
-
-
-
 .store-locations .street-sign p {
-    text-align:right;
+    text-align: right;
     padding-right: 20px;
-    color:red;
+    color: red;
 }
 
 .store-locations .street-sign h2 {
-    text-align:center;
+    text-align: center;
     color: #201545;
-    
-   
 }
 
-.street-sign:hover {
-    background-color:rgba(21,16,42,1);
-}
+
 
 .street-sign h4 {
-    text-align:right;
-    color:red;
+    text-align: right;
+    color: red;
 }
 
 .store-locations {
     text-align: center;
     padding-bottom: 100px;
-    background-color:#efefef;
+    background-color: #efefef;
 }
 
 .store-locations img {
@@ -474,9 +451,11 @@ font-size:2em;
 }
 
 .store-locations p {
-    text-align:center;
+    text-align: center;
 }
+
 .street-sign {
+    position: relative;
     BORDER: 5PX SOLID #201545;
     BORDER-RADIUS: 10PX;
     padding: 10px;
@@ -485,10 +464,9 @@ font-size:2em;
     background-color: #fff;
 }
 
-.opening-times  {
-   
+.opening-times {
     background-color: #fff;
-    margin:20px;
+    margin: 20px;
 }
 
 .street-sign h4 {
@@ -496,18 +474,14 @@ font-size:2em;
     color: red;
 }
 
-
-
-
 .full_section_inner {
     margin: 40px;
-    
 }
 
 .store-locations {
     text-align: center;
     padding-bottom: 100px;
-    background-color:#efefef;
+    background-color: #efefef;
 }
 
 .store-locations img {
@@ -515,14 +489,12 @@ font-size:2em;
 }
 
 .store-locations p {
-    text-align:center;
+    text-align: center;
 }
 
-
-.opening-times  {
-   
+.opening-times {
     background-color: #fff;
-    margin:20px;
+    margin: 20px;
 }
 
 .street-sign h4 {
@@ -530,10 +502,8 @@ font-size:2em;
     color: red;
 }
 
-
-
 aside.sidebar .widget h4 {
-    background-color:rgba(21,16,42,1) !important;
+    background-color: rgba(21, 16, 42, 1) !important;
 }
 
 .specials {
@@ -541,14 +511,14 @@ aside.sidebar .widget h4 {
 }
 
 .specials img {
-   width: 100%;
+    width: 100%;
 }
 
 .specials .latest_post_text {
     position: absolute;
     height: 300px;
     margin-top: -70%;
-    right:0;
+    right: 0;
     background-color: rgba(255, 255, 255, 0.9);
     width: 40%;
     padding: 10px;
@@ -556,137 +526,148 @@ aside.sidebar .widget h4 {
 
 .specials .latest_post_title {
     font-size: 1.5em;
-  font-style: italic;
+    font-style: italic;
     color: #201545;
 }
 
- .specials .latest_post_text h2 {
-font-size:2em;
+.specials .latest_post_text h2 {
+    font-size: 2em;
 }
 
 .latest_post_holder.boxes>ul>li .latest_post {
-  padding:0px;
-  background-color: #fff;
+    padding: 0px;
+    background-color: #fff;
 }
 
 .latest_post_holder .boxes_image a .latest_post_overlay {
-    background-color:rgba(21,16,42,0.6);
+    background-color: rgba(21, 16, 42, 0.6);
 }
 
 .latest_post_holder .latest_post_overlay .icon_plus {
-  color:#fff;
-  background-color:rgba(21,16,42,1);
+    color: #fff;
+    background-color: rgba(21, 16, 42, 1);
+}
 
+.blog_holder article .post_image a .post_overlay {
+    background-color: rgba(21, 16, 42, 0.6);
+}
+
+.blog_holder article .post_image a .icon_plus {
+    color: #fff;
+background-color: rgba(21, 16, 42, 0.6);
 }
 
 .boxes_image img {
-    width:100%;
+    width: 100%;
 }
-    
-    
-    
+
 .mgom_circle div {
     display: inline-block;
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  
-  left: 0;
-  right: 0;
-  border-radius: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:-100px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
 }
 
 .mg_box:hover .mgom_23_0 div {
     width: 300%;
-  height: 300%;
-  top: 0;
- 
+    height: 300%;
+    top: 0;
 }
 
- .mgom_23_1 {
-    padding-top: 20px; 
-    
-   
-    letter-spacing:5px;
+.mgom_23_1 {
+    padding-top: 20px;
+    letter-spacing: 5px;
 }
 
- .mgom_23_1::after {
+.mgom_23_1::after {
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 3px;
+    margin-top: 15px;
+    background-color: #fff;
+    transition: all 200ms ease 0s;
+    -webkit-transition: all 200ms ease 0s;
+}
 
-  display: block;
-  content: "";
-  margin: 0 auto;
-  width: 10px;
-  height: 10px;
-  margin-top: 10px;
-  background-color: #fff;
-  
+.mg_box:hover .mgom_23_1::after {
+    width: 50px;
+}
 
- }
+.mgom_23_2 {
+    transition: all 400ms ease 0s;
+    -webkit-transition: all 400ms ease 0s;
+}
 
-
-
-.footer_top{
+.footer_top {
     background-image: url(../img/ampersand.svg);
-    background-repeat:no-repeat;
-    
+    background-repeat: no-repeat;
 }
 
 .footer_top_holder {
-   background-color: rgba(21,16,42,1) !important;
+    background-color: rgba(21, 16, 42, 1) !important;
 }
 
 .footer_top .widget_nav_menu li.menu-item a {
-  margin-bottom: 10px;
-  font-size: 1.5em;
-  text-align: center;
-  color: white;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
 }
 
 .footer_top .widget h4 {
-  color: #fff;
-  margin: 0 0 15px;
-  text-align: center;
-  font-size: 1.5em;
-  font-style: italic;
+    color: #fff;
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
 }
 
-.footer_top a  {
-    color:#fff;
-    font-size:1.5em;
+.footer_top a {
+    color: #fff;
+    font-size: 1.5em;
     padding: 5px;
 }
 
 .mc4wp-form label {
-  font-size: 1.5em;
-  color: white;
-  font-style: italic;
-  padding-bottom: 20px;
-  margin: 6px 0;
+    font-size: 1.5em;
+    color: white;
+    font-style: italic;
+    padding-bottom: 20px;
+    margin: 6px 0;
 }
 
-.mc4wp-form button, .mc4wp-form input[type=button], .mc4wp-form input[type=submit]  {
-  color: #FFF!important;
-  /* background-color: #fff!important; */
-  /* border-color: #E6E6E6; */
-  font-size: 2em;
-  /* font-style: italic; */
-  text-decoration: underline;
-  padding: 0px;
-  bor
+.mc4wp-form button,
+.mc4wp-form input[type=button],
+.mc4wp-form input[type=submit] {
+    color: #FFF!important;
+    /* background-color: #fff!important; */
+    /* border-color: #E6E6E6; */
+    
+    font-size: 2em;
+    /* font-style: italic; */
+    
+    text-decoration: underline;
+    padding: 0px;
+    bor
 }
-
 
 .products .image_with_text h5 {
     position: absolute;
     margin-top: -40%;
     left: 0;
     right: 0;
-     font-family: 'Goudy Bookletter 1911', sans-serif;
+    font-family: 'Goudy Bookletter 1911', sans-serif;
     color: #fff;
-    font-size:3em;
+    font-size: 3em;
 }
 
 .products .full_section_inner {
@@ -696,7 +677,6 @@ font-size:2em;
 .product-info {
     width: 90%;
     margin: 50px auto 100px auto;
-    
 }
 
 .product-info img {
@@ -706,7 +686,16 @@ font-size:2em;
 .product-info h2 {
     margin-bottom: 50px;
     padding: 20px;
-    text-align:center;
+    text-align: center;
 }
-    
 
+#back_to_top > span {
+    font-size: 14px;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 1000px){
+.header_bottom, nav.mobile_menu {
+  background-color: rgba(21, 16, 42, 1);
+}
+}
