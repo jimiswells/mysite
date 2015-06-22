@@ -1,12 +1,37 @@
 
 
+ .section-title {
+    font-size:3em;
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+header.centered_logo .logo_wrapper {
+  float: none;
+  height: 70px !important;
+}
+
+header.centered_logo.centered_logo_animate .q_logo img, header:not(.centered_logo) .q_logo img {
+    height: 50% !important;
+}
+
+
 .content .content_inner > .container > .container_inner.default_template_holder {
     padding-top: 300px;
 }
 
-.single-post .content .content_inner > .container > .container_inner.default_template_holder {
-    padding-top: 50px;
+.content .content_inner > .container > .container_inner, .content .content_inner > .full_width > .full_width_inner {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 300px;
+    
 }
+
+.page-id-2 .content .content_inner > .container > .container_inner, .content .content_inner > .full_width > .full_width_inner {
+
+}
+
+
 
 .single-post .container_inner {
     padding:40px;
@@ -83,10 +108,13 @@ text-decoration:underline;
 }
 
 .single-post .content .content_inner > .container > .container_inner.default_template_holder {
-    padding-top: 50px;
-    background-color: #f6f5f5;
+    padding-top: 300px;
+    
 }
 
+.blog_holder.blog_single article .post_text .post_text_inner {
+    background-color: #f5f5f5;
+}
 .qbutton.white {
     width: 80%;
     margin-top: 10px;
@@ -138,6 +166,9 @@ nav.main_menu>ul>li.active>a {
 }
 
 
+.store-locations {
+    padding-top: 50px;
+}
 
 .store-locations h1 {
     color: #201545;
@@ -164,13 +195,13 @@ nav.main_menu>ul>li.active>a {
     color: #201545;
 }
 
-.street-sign::after {
+.street-sign .overlay {
     display: block;
     content: "GO TO MAP";
     color: #fff;
     text-align:center;
     margin: 0 auto;
-    width: 100%;
+    width: 0%;
     top: 0;
     left: 0;
     right: 0;
@@ -179,12 +210,29 @@ nav.main_menu>ul>li.active>a {
     height: 100%;
     position: absolute;
     background-color: rgba(21, 16, 42, 1);
-    transition: all 200ms ease 0s;
-    -webkit-transition: all 200ms ease 0s;
+    transition: all 400ms ease 0s;
+    -webkit-transition: all 400ms ease 0s;
 }
 
-.street-sign:hover.street-sign::after {
-    opacity:0.9;
+.street-sign .overlay h1 {
+    margin-top: 25px;
+  color:#fff;
+  font-size: 2em;
+  text-decoration:underline;
+    opacity: 0;
+      transition: all 1000ms ease 0s;
+    -webkit-transition: all 1000ms ease 0s;
+}
+
+.street-sign:hover .overlay h1 {
+    opacity:1;
+   
+    
+}
+
+.street-sign:hover .overlay {
+    opacity:1;
+    width: 100%;
     
 }
 
@@ -304,24 +352,7 @@ aside.sidebar .widget h4 {
     width: 100%;
 }
 
-.mgom_circle div {
-    display: inline-block;
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 0;
-    right: 0;
-    border-radius: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -100px;
-}
 
-.mg_box:hover .mgom_23_0 div {
-    width: 300%;
-    height: 300%;
-    top: 0;
-}
 
 .footer_top {
     background-image: url(../img/ampersand.svg);
@@ -375,6 +406,8 @@ aside.sidebar .widget h4 {
     padding: 0px;
     bor
 }
+
+
 
 .products .image_with_text h5 {
     position: absolute;
@@ -562,6 +595,10 @@ aside.sidebar .widget h4 {
 background-color: rgba(21, 16, 42, 0.6);
 }
 
+body.page-template-blog-masonry-full-width-php .content .full_width {
+  padding: 300px 20px 25px 45px;
+}
+
 .boxes_image img {
     width: 100%;
 }
@@ -586,7 +623,7 @@ background-color: rgba(21, 16, 42, 0.6);
 }
 
 .mgom_23_1 {
-    padding-top: 20px;
+    padding-top: 10px;
     letter-spacing: 5px;
     font-size:20px;
 }
